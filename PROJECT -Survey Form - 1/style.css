@@ -1,0 +1,105 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 200vh;
+    background-color: #F5F5F5;
+}
+
+.container {
+    height: 80vh;
+    width: 40vw;
+    margin: 10vh auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+}
+
+h1 {
+    font-weight: bolder;
+    font-size: 5vh;
+}
+
+form {
+    background-color: #48CFCB;
+    font-weight: 600;
+    padding: 1vw 2vw;
+    border-radius: 15px;
+}
+
+#title {
+    text-align: center;
+}
+
+.form-option {
+    display: flex;
+    flex-direction: column;
+}
+
+#description {
+
+    padding-top: 5vh;
+    text-align: center;
+    line-height: 3.5vh;
+}
+
+.form-option,
+.form-optiondoc,
+.form-optionmeal {
+    padding: 0.5vw 0;
+}
+
+
+input,
+textarea {
+    padding: 1vh 2vh;
+    border-radius: 10px;
+    border-color: white;
+    resize: none;
+    border: 0.5px light white;
+}
+
+.container-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+select {
+    margin: 2vh;
+}
+
+select option {
+    text-align: center;
+}
+
+#name-label,
+#email-label,
+#number-label,
+#comment-label,
+#liked-meal,
+#doc-label {
+    font-weight: bold;
+    margin-bottom: 1vh;
+}
+
+button {
+    padding: 1vh 7vw;
+    border-radius: 2vh;
+    font-weight: bold;
+    cursor: pointer;
+}
+#dropdown{
+ padding: 1vh;
+ border-radius: 10px;
+ font-weight: bold; 
+}
+
+

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <form action="Name" id="survey-form">
+
+                <h1 id="title">Motel Survey Form:</h1>
+                <p id="description">Hello, how are you?<br> Thanks for reaching till here, we hope that you fill up our
+                    survey form and also guide us to make any changes in the store.</p>
+
+                <div class="form-option">
+                    <label for="name" id="name-label">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name." required>
+                </div>
+
+                <div class="form-option">
+                    <label for="number" id="number-label">Number</label>
+                    <input type="number" min="0" max="100" name="number" id="number" placeholder="Enter your number.">
+                </div>
+
+                <div class="form-option">
+                    <label for="email" id="email-label">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email." required>
+                </div>
+                <div class="form-optiondoc">
+                    <p id="doc-label">Select your Document type whcih you gave us at the time of registration:</p>
+                    <label for="document-type">License</label>
+                    <input type="checkbox" name="document-type" value="document-1" id="doc-1">
+                    <label for="document-type">Passport</label>
+                    <input type="checkbox" name="document-type" value="document-2" id="doc-2">
+                </div>
+                <div class="form-optionmeal">
+                    <p id="liked-meal">which meal you liked the most:</p>
+                    <input type="radio" name="meal" id="meal-1" value="Lunch">
+                    <label for="meal-1">Lunch</label>
+                    <input type="radio" name="meal" id="meal-2" value="Dinner">
+                    <label for="meal-2">Dinner</label>
+                    <input type="radio" name="meal" id="both" value="Both">
+                    <label for="both">Both</label>
+                </div>
+
+                <div class="form-option">
+                    <label for="comment-box" id="comment-label">Any comments or suggestion?</label>
+                    <textarea name="comment-box" id="comment-box" placeholder="Comment here"></textarea>
+                </div>
+                <div class="container-2">
+                    <select name="dropdown" id="dropdown">
+                        <option class="options" value="">- -:Please rate us:- -
+                        </option>
+                        <option value="one">*</option>
+                        <option value="two">* *</option>
+                        <option value="three">* * *</option>
+                        <option value="four">* * * *</option>
+                        <option value="five">* * * * *</option>
+                    </select>
+                    <button id="submit" type="submit">Submit</button>
+                </div>
+            </form>
+        </div>
+    </main>
+</body>
+
+</html>
